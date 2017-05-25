@@ -62,7 +62,7 @@ Uri uri = Uri.parse("tel:" + phoneNumber);
 
 ---
 > Intent 활용
-
+```java
 // 웹페이지 띄우기
 Uri uri = Uri.parse("http://www.google.com");
 Intent it  = new Intent(Intent.ACTION_VIEW,uri);
@@ -207,4 +207,4 @@ Intent intent = new Intent();
 intent.setAction(Intent.ACTION_WEB_SEARCH);
 intent.putExtra(SearchManager.QUERY,"searchString")
 startActivity(intent);
-
+```
